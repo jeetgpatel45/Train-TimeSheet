@@ -1,0 +1,12 @@
+.jumbotron {
+    background-color: rgb(70, 69, 69);
+    color: rgb(253, 240, 227);
+}
+.btn {
+    background-color: rgb(184, 57, 57); 
+    color: rgb(253, 240, 223);
+    border: none;
+}
+.btn:hover {
+    background-color: rgb(226, 57, 57);
+}
