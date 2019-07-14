@@ -1,3 +1,7 @@
+body {
+    margin: 0% auto;
+    padding: 0%;
+}
 .jumbotron {
     background-color: rgb(70, 69, 69);
     color: antiquewhite;
@@ -7,7 +11,23 @@
     background-color: rgb(184, 57, 57); 
     color: rgb(253, 240, 223);
     border: none;
+    width: 130px;
 }
+
 .btn:hover {
     background-color: rgb(226, 57, 57);
+}
+#addTrain {
+    background-color: rgb(70, 69, 69);
+    color: antiquewhite;
+    font-size: 18px;
+}
+#table {
+    background-color: rgb(201, 87, 87);
+    color: rgb(255, 255, 255);
+    font-weight: 300px;
+    font-size: 18px;
+}
+#container {
+    margin: 0% auto;
 }
