@@ -50,6 +50,6 @@ $(document).ready(function () {
             $("<td>").html(TrainArrival),
             $("<td>").html(TrainTime),
         );
-        $("#trainTable > tbody").append(newRow)
+        $("#trainTable > tbody").prepend(newRow)
     })
 })
