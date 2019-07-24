@@ -29,9 +29,8 @@ $(document).ready(function () {
             minutes: frequency
         }
 
-        var test = database.ref().push(trainData);
-        // console.log(trainData.place)
-        // console.log(test)
+        database.ref().push(trainData);
+        
         $("#trainN").val("");
         $("#destination").val("");
         $("#arrival").val("");
